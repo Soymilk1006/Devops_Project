@@ -21,7 +21,7 @@ The frontend is built using TypeScript and React. It involves setting up a local
 
 
 **Frontend Architecture:**  
-<img src="./img/Frontend_diagrm.png" alt="Frontend Architecture Diagram" width="1000" height="600"/>
+<img src="./img/Frontend_diagrm.png" alt="Frontend Architecture Diagram" width="1000" height="400"/>
 
 ### Backend
 
@@ -91,5 +91,5 @@ Failover strategies ensure the application remains available even in the event o
 - Implement automated or semi-automated failover processes.
 
 **Failover Diagram:**  
-<img src="./img/Failover.png" alt="Failover Architecture Diagram" width="1000" height="400"/>
+<img src="./img/Failover.png" alt="Failover Architecture Diagram" width="1000" height="600"/>
 
