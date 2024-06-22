@@ -20,7 +20,7 @@
 The frontend is built using TypeScript and React. It involves setting up a local development environment, running the application locally, and deploying the frontend to the cloud.
 
 
-**Architecture Diagram:**  
+**Frontend Architecture:**  
 <img src="./img/Frontend_diagrm.png" alt="Frontend Architecture Diagram" width="1000" height="600"/>
 
 ### Backend
@@ -33,7 +33,7 @@ The backend is developed using Node.js and Express. It requires setting up cloud
 - Script backend deployment using IaC tools.
 - Optimize backend performance and infrastructure.
 
-**Architecture Diagram:**  
+**Backend Architecture:**  
 <img src="./img/Backend_diagrm.png" alt="Backend Architecture Diagram" width="1000" height="600"/>
 
 ### Monitoring
@@ -46,10 +46,10 @@ Monitoring involves setting up tools to track the performance and availability o
 - Configure alerts for prompt issue resolution.
 - Use the ELK stack for log management and analysis.
 
-**Architecture Diagram:**  
-<img src="./img/Monitoring.png" alt="Monitoring Architecture Diagram" width="1000" height="600"/>  
-<img src="./img/prometheus.png" alt="Prometheus Architecture Diagram" width="1000" height="300"/>  
-<img src="./img/cloudwatch_metric.png" alt="CloudWatch Metric Architecture Diagram" width="1000" height="400"/>
+**Monitoring Diagram:**  
+<img src="./img/Monitoring.png" alt="Monitoring Architecture Diagram" width="1000" height="500"/>  
+<img src="./img/prometheus.png" alt="Prometheus Architecture Diagram" width="1000" height="200"/>  
+<img src="./img/cloudwatch_metric.png" alt="CloudWatch Metric Architecture Diagram" width="1000" height="300"/>
 
 
 
@@ -64,8 +64,8 @@ Security tasks focus on integrating security tools and practices into the CI/CD 
 - Ensure least privilege access for all services.
 - Set up a Vault server for credential management.
 
-**Architecture Diagram:**  
-<img src="./img/security.png" alt="Security Architecture Diagram" width="1000" height="600"/>
+**Security Diagram:**  
+<img src="./img/security.png" alt="Security Architecture Diagram" width="1000" height="400"/>
 
 ### Load Testing
 
@@ -77,7 +77,7 @@ Load testing involves simulating heavy traffic to the infrastructure to identify
 - Optimize infrastructure based on load testing results.
 - Re-test to ensure improvements.
 
-**Architecture Diagram:**  
+**Load Testing Result:**  
 <img src="./img/Load%20testing.png" alt="Load Testing Architecture Diagram" width="1000" height="600"/>
 
 ### Failover
@@ -90,6 +90,6 @@ Failover strategies ensure the application remains available even in the event o
 - Design mechanisms to detect system failures.
 - Implement automated or semi-automated failover processes.
 
-**Architecture Diagram:**  
-<img src="./img/Failover.png" alt="Failover Architecture Diagram" width="1000" height="600"/>
+**Failover Diagram:**  
+<img src="./img/Failover.png" alt="Failover Architecture Diagram" width="1000" height="400"/>
 
