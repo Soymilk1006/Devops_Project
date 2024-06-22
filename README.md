@@ -47,7 +47,7 @@ Monitoring involves setting up tools to track the performance and availability o
 - Use the ELK stack for log management and analysis.
 
 **Monitoring Diagram:**  
-<img src="./img/Monitoring.png" alt="Monitoring Architecture Diagram" width="1000" height="500"/>  
+<img src="./img/Monitoring.png" alt="Monitoring Architecture Diagram" width="1000" height="400"/>  
 <img src="./img/prometheus.png" alt="Prometheus Architecture Diagram" width="1000" height="200"/>  
 <img src="./img/cloudwatch_metric.png" alt="CloudWatch Metric Architecture Diagram" width="1000" height="300"/>
 
@@ -78,7 +78,7 @@ Load testing involves simulating heavy traffic to the infrastructure to identify
 - Re-test to ensure improvements.
 
 **Load Testing Result:**  
-<img src="./img/Load%20testing.png" alt="Load Testing Architecture Diagram" width="1000" height="600"/>
+<img src="./img/Load%20testing.png" alt="Load Testing Architecture Diagram" width="1000" height="400"/>
 
 ### Failover
 
