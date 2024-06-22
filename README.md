@@ -34,7 +34,7 @@ The backend is developed using Node.js and Express. It requires setting up cloud
 - Optimize backend performance and infrastructure.
 
 **Backend Architecture:**  
-<img src="./img/Backend_diagrm.png" alt="Backend Architecture Diagram" width="1000" height="600"/>
+<img src="./img/Backend_diagrm.png" alt="Backend Architecture Diagram" width="1000" height="400"/>
 
 ### Monitoring
 
@@ -65,7 +65,7 @@ Security tasks focus on integrating security tools and practices into the CI/CD 
 - Set up a Vault server for credential management.
 
 **Security Diagram:**  
-<img src="./img/security.png" alt="Security Architecture Diagram" width="1000" height="400"/>
+<img src="./img/security.png" alt="Security Architecture Diagram" width="600" height="500"/>
 
 ### Load Testing
 
@@ -78,7 +78,7 @@ Load testing involves simulating heavy traffic to the infrastructure to identify
 - Re-test to ensure improvements.
 
 **Load Testing Result:**  
-<img src="./img/Load%20testing.png" alt="Load Testing Architecture Diagram" width="1000" height="400"/>
+<img src="./img/Load%20testing.png" alt="Load Testing Architecture Diagram" width="600" height="600"/>
 
 ### Failover
 
