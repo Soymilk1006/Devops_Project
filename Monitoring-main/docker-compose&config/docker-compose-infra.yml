@@ -1,0 +1,44 @@
+version: '2'
+
+volumes:
+  prometheus_data: {}
+  grafana_data: {}
+
+services:
+  stastd:
+    image: shiqiding12138/cloudwatch-exporter:v2.2
+    container_name: statsd
+    ports:
+      - 9106:9106
+    environment:
+      AWS_ACCESS_KEY_ID: "xxxxxxxxxxxxxxxxx"
+      AWS_SECRET_ACCESS_KEY: "xxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    volumes:
+      - ./opensearchandmonitor/cloudwatchexporterconfig/config.yml:/config/config.yml
+
+  prometheus:
+    image: shiqiding12138/prometheus:v2.0
+    container_name: prometheus
+
+    expose:
+      - 9090
+    ports:
+      - 9090:9090
+
+
+  grafana:
+    image: grafana/grafana
+    depends_on:
+      - prometheus
+    ports:
+      - 3000:3000
+    volumes:
+      - grafana_data:/var/lib/grafana
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=foobar
+      - GF_USERS_ALLOW_SIGN_UP=false
+
+
+
+networks:
+  monitoring-net:

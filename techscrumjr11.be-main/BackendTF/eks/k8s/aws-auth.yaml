@@ -1,0 +1,11 @@
+# apply rbac files first
+# kubectl edit -n kube-system configmap/aws-auth, add following 
+# export AWS_PROFILE=<profile_name>
+# aws eks update-kubeconfig --name techscrum-prod --region ap-southeast-2
+# kubectl get all
+mapUsers: |
+    - userarn: arn:aws:iam::650635451238:user/ying
+      username: eks-admin
+      groups:
+        - system:masters
+    
