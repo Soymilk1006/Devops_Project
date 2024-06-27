@@ -5,9 +5,9 @@
 
 - **Frontend**: TypeScript, React
 - **Backend**: Node.js, Express
-- **Infrastructure as Code (IaC)**: Terraform, AWS CloudFormation
-- **CI/CD**: Jenkins, GitHub Actions, Bitbucket Pipelines
-- **Monitoring**: Prometheus, Grafana, ELK Stack (Elasticsearch, Logstash, Kibana)
+- **Infrastructure as Code (IaC)**: Terraform
+- **CI/CD**: Jenkins
+- **Monitoring**: Prometheus, Grafana, Opensearch
 - **Cloud Providers**: AWS,AZure,GCP
 
 **Architecture Diagram:**
